@@ -1,0 +1,12 @@
+Movimientos con el arduino a reconocer
+
+0 -> Reposo(idle) ==> Ax = 0 | Ay = 0 | Az = 9.81 | Gx = 0 | Gy = 0 | Gz = 0 | KalX = 0 | KalY = 0
+1 -> Arriba ==> Ax = 0 | Ay = 7/0 | Az = 8 | Gx = +40/-40 | Gy = 0 | Gz = 0 | KalX = 30/0 | KalY = 0
+2 -> Abajo ==>
+3 -> Derecha ==> Ax = 0 | Ay = 0 | Az = 0 | Gx = 0 | Gy = 0 | Gz= -30/+30 | KalX = 15/0 | KalY = -5/0
+4 -> Izquierda ==> Ax = 0 | Ay = 0 | Az = 0 | Gx = 0 | Gy = 0 | Gz= +30/-30 | KalX = 5/0 | KalY = 15/0
+5 -> Girar sentido horario ==> Ax = -9.81/0 | Ay = 0 | Az = 0/9.81 | Gx = 0 | Gy = +150/-150 | Gz = 0 | KalX = 160/0 | KalY = 80/0
+6 -> Girar sentido antihorario ==> 
+
+65 movs = 3250 filas
+130 movs = 6500 filas
